@@ -21,6 +21,7 @@ In financial lending, the cost of missing a default (losing money) is far higher
 ## Technical Approach
 
 ### 1. Data Processing (`processing.py`)
+* **Source:** [Credit Risk Dataset (Kaggle)](https://www.kaggle.com/datasets/laotse/credit-risk-dataset)
 * **Outlier Removal:** Filtered unrealistic data (e.g., Age > 100, Employment > 60 years).
 * **Segmentation Imputation:** Missing values were filled using group-specific medians (e.g., imputing Interest Rate based on Loan Grade).
 * **Feature Engineering:** One-Hot Encoding for nominal variables and Ordinal Encoding for loan grades.
@@ -80,4 +81,4 @@ The default decision threshold (0.50) missed too many defaults. I analyzed the *
 ### Author
 **Philip Zhang**
 * https://www.linkedin.com/in/philip-zhang-916005326/
-* 
+* https://github.com/phzhang1
